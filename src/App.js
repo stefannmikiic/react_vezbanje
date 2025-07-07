@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Brojac from './mojeKomponente/Brojac';
+import LoginKomponenta from './mojeKomponente/LoginKomponenta';
+import MojiRecepti from './mojeKomponente/MojiRecepti';
+import Pozdrav from './mojeKomponente/Pozdrav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <h1 className='title'>Moja React Aplikacija</h1>
+      <MojiRecepti> </MojiRecepti>
+      
+    </>
+    
   );
 }
 
